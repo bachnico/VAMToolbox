@@ -21,15 +21,6 @@ jobs:
             anaconda_osname: linux-64
 
     steps:
-      - name: Check if ANACONDA_TOKEN empty
-        if: ${{ env.anaconda_token == '' }}
-        run: |
-          echo 'ANACONDA_TOKEN does not have a value set. Exiting job.'
-          exit 1
-      - name: Check if ANACONDA_TOKEN filled
-        if: ${{ env.anaconda_token != '' }}
-        run: |
-          echo 'ANACONDA_TOKEN has a value set.'
       - name: Checkout repo
         uses: actions/checkout@v4
       - name: Set up python
