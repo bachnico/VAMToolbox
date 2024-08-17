@@ -58,10 +58,9 @@ jobs:
       - name: Build Conda Package
         run: |
           cd conda
-          conda build --output-folder . .
-          
-     - name: Upload to Anaconda
-       env:
-         anaconda_token: ${{ secrets.ANACONDA_TOKEN }}
-       run: |
-        ls ./conda/
+          conda build --output-folder . .   
+      - name: Upload to Anaconda
+        env:
+          anaconda_token: ${{ secrets.ANACONDA_TOKEN }}
+        run: |
+          ls ./conda/
