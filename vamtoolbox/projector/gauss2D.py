@@ -272,7 +272,6 @@ if __name__ == "__main__":
 
 
     font = {'family' : 'sans-serif',
-            'sans-serif'  : 'arial',
             'weight' : 'bold',
             'size'   : 36}
 

@@ -16,7 +16,6 @@ import vamtoolbox
 
 
 plt.rcParams['font.family'] = 'sans-serif'
-plt.rcParams['font.sans-serif'] = ['Arial']
 
 class CursorFormatter():
 	def __init__(self, im,slice_index=None):

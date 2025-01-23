@@ -14,20 +14,20 @@ requirements:
     - python=3.10
     - setuptools
   run:
-    - astra-toolbox=2.2.0
+    - astra-toolbox
     - python=3.10
-    - dill=0.3.8
-    - opencv=4.10.0
-    - pillow=10.4.0
-    - matplotlib=3.9.2
-    - pytorch::pytorch=2.4.0
-    - pytorch::pytorch-cuda=12.4
-    - pytorch::torchaudio=2.4.0
-    - pytorch::torchvision=0.19.0
-    - conda-forge::pyvista=0.44.1
-    - pyglet=1.5.16
-    - trimesh=4.4.7
-    - tqdm=4.66.4
-    - pyopengl=3.1.1a1
-    - vedo=2024.5.1
-    - scikit-image=0.23.2
+    - dill
+    - opencv
+    - pillow
+    - matplotlib=3.6.3
+    - pytorch::pytorch
+    - pytorch::pytorch-cuda
+    - pytorch::torchaudio
+    - pytorch::torchvision
+    - conda-forge::pyvista
+    - pyglet=1.5.27
+    - trimesh
+    - tqdm
+    - pyopengl
+    - vedo=2023.4.6
+    - scikit-image
